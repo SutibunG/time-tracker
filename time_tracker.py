@@ -114,9 +114,6 @@ def stop_watch():
         #-------------- APPEND DATA -----------------#
         data_dict["Task"].append(f"{task_entry.get()}")
         data_dict["Time"].append(f"{count_min}:{count_sec}")
-        #time_convert = count_min * 60
-        #y_val = int(time_convert) + int(count_sec)
-        #data_dict["Seconds"].append(y_val)
 
         print(data_dict)
 
